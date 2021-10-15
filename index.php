@@ -299,39 +299,7 @@ lianaoctav" target="_blank"><i class="icon-instagram"></i></a>
 		</form>
 	</div>
 
-	<?php
-
-		if (isset($_POST['submit'])) {
-
-			$nama = $_POST['nama'];
-			$email = $_POST['email'];
-			$pesan = $_POST['pesan'];
-			$konfirmasi = $_POST['konfirmasi'];
-
-				$to      = "Yenny
-lianaoctav@gmail.com";
-
-			$subject = "Ada Pesan dari $nama";
-
-			$message = "$pesan \r\n";
-				$message .= "Konfirmasi : $konfirmasi \r\n \r\n";
-				$message .= "Dari : $nama";
-
-			$headers = "From: $email \r\n";
-			$headers .= "Reply-To: $email \r\n";
-			$headers .= "Content-type: text/html\r\n";
-
-			if (mail($to, $subject, $message, $headers)) {
-					
-					echo "<script>alert('Pesan dan Doa Anda Telah dikirim')</script>";
-					echo "<script>location='index.php';</script>";			
-					exit();
-
-				}
-
-		}
-	?>
-
+	
 	<!-- Modal kirim dana -->
 	<div class="modal fade" id="kirim_dana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-lg">
@@ -529,33 +497,7 @@ lianaoctav@gmail.com";
     	</div>
     </section>
 
-    <?php
-
-    	if (isset($_POST['attending'])) {
-    		
-    		$your_name = $_POST['your_name'];
-    		$your_email = $_POST['your_email'];
-    		$mess = $_POST['welcome'];
-
-    		$hdr = "From : $your_name \r\n";
-    		$hdr .= "Reply-To: $your_email \r\n";
-			$hdr .= "Content-type: text/html\r\n";
-
-			$sbj = "Pesan Kehadiran Dari $your_name";
-
-			$msg = "$mess";
-
-			$utk = "Yenny
-lianaoctav@gmail.com";
-
-			if (mail($utk, $sbj, $msg, $hdr)) {
-				
-				echo "<script>alert('Pesan Sukses')</script>";
-				echo "<script>location='index.php'</script>";
-			}
-    	}
-    ?>
-
+    
     <section class="ftco-section" id="gallery-section">
     	<div class="container-fluid px-md-4">
     		<div class="row justify-content-center pb-5">
