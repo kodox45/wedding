@@ -220,7 +220,7 @@ lianaoctav" target="_blank"><i class="icon-instagram"></i></a>
 							<div class="feature-copy">
 								<!-- <h3>Kirim Pesan</h3>
 								<p>Sampaikan Pesan dan Doa Kalian Kepada Kami.</p> -->
-								<button class="btnpis" data-toggle="modal" data-target="#kirim_pesan" style="border-radius: 50px;color: #8D5F5B;background-color: #fff;border-color: transparent;box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75);width: 208px;font-family: &quot;Work Sans&quot;, Arial, sans-serif;"><b>Kirim Pesan</b></button>
+								<button class="btnpis" data-toggle="modal" data-target="#kirim_pesan" style="border-radius: 50px;color: #8D5F5B;background-color: #fff;border-color: transparent;box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75);width: 208px;font-family: Work Sans, Arial, sans-serif;"><b>Kirim Pesan</b></button>
 							</div>
 						</div>
 
@@ -233,7 +233,7 @@ lianaoctav" target="_blank"><i class="icon-instagram"></i></a>
 							<div class="feature-copy">
 								<!-- <h3>Kirim Dana</h3>
 								<p>Bagi anda yang bermaksud untuk mengirimkan dana sebagai hadiah untuk pernikahan kami.</p> -->
-								<button class="btnpis" data-toggle="modal" data-target="#kirim_dana" style="border-radius: 50px;color: #8D5F5B;background-color: #fff;border-color: transparent;box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75);width: 208px;font-family: &quot;Work Sans&quot;, Arial, sans-serif;"><b>Kirim Dana</b></button>
+								<button class="btnpis" data-toggle="modal" data-target="#kirim_dana" style="border-radius: 50px;color: #8D5F5B;background-color: #fff;border-color: transparent;box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75);width: 208px;font-family: Work Sans, Arial, sans-serif;"><b>Kirim Dana</b></button>
 							</div>
 						</div>
 
@@ -292,7 +292,7 @@ lianaoctav" target="_blank"><i class="icon-instagram"></i></a>
 		       	</div>
 		      </div>
 		      <div class="modal-footer" style="background: rgba(0,0,0,0.04);">
-		        <button type="submit" name="submit" style="border-radius: 50px;color: #8D5F5B; background-color: #fff; border-color: transparent; box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75); width: 208px; font-family: &quot; Work Sans&quot;, Arial, sans-serif; margin-bottom: 20px;">Kirim</button>
+		        <button type="submit" name="submit" style="border-radius: 50px;color: #8D5F5B; background-color: #fff; border-color: transparent; box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75); width: 208px; font-family:  Work Sans, Arial, sans-serif; margin-bottom: 20px;">Kirim</button>
 		      </div>
 		    </div>
 		  </div>
