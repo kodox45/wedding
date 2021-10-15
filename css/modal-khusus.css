@@ -1,0 +1,86 @@
+#modal-aku {
+	top: 2vh;
+	display: block;
+}
+.modal-content {
+	color: #8D5F58;
+}
+.modal-header {
+	background: rgba(0,0,0,0.04);
+	border-bottom: 1px solid rgba(159,40,30,0.3);
+}
+.modal-title {
+	font-size: 2.5vw;
+	margin: auto;
+}
+.modal-body {
+	font-size: 2.5vw;
+	background: rgba(0,0,0,0.04);
+}
+.modal-body p {
+	font-size: 1.8vw;
+}
+.modal-p {
+	font-weight: bold;
+	font-size: 3vw;
+}
+.modal-form {
+	height: 5vw !important;
+	font-size: 3vw;
+}
+.modal-footer {
+	background: rgba(0,0,0,0.04);
+}
+#ok, .button-modal {
+	border-radius: 50px;
+	color: #8D5F5B;
+	background-color: #fff;
+	border-color: transparent;
+	box-shadow: 0px 15px 20px -13px rgba(0, 0, 0, 0.75);
+	width: 208px;
+	/*font-family: &quot, Work Sans,&quot, Arial, sans-serif;*/
+	font-family: Work Sans, Arial, sans-serif;
+	font-size: 1.6vw;
+	font-weight: bold;
+}
+@media (max-width: 992px) and (min-width: 600px){
+	.modal-title {
+		font-size: 3vw;
+	}
+	.modal-body p {
+		font-size: 2vw;
+	}
+	.modal-p {
+		font-weight: bold;
+		font-size: 3vw;
+	}
+	.modal-form {
+		height: 5vw !important;
+		font-size: 3vw;
+	}
+	.modal-footer {
+		background: rgba(0,0,0,0.04);
+	}
+	#ok, .button-modal {
+		font-size: 2vw;
+	}
+}
+@media (max-width: 599px) and (min-width: 360px){
+	.modal-title {
+		font-size: 3.8vw;
+	}
+	.modal-body p {
+		font-size: 3vw;
+	}
+	.modal-p {
+		font-weight: bold;
+		font-size: 3vw;
+	}
+	.modal-form {
+		height: 10vw !important;
+		font-size: 3vw;
+	}
+	#ok , .button-modal {
+		font-size: 3vw;
+	}
+}
